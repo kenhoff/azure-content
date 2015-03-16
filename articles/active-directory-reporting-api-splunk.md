@@ -14,22 +14,22 @@ Follow this tutorial to get your access token: [Microsoft Azure REST API + OAuth
 	- OAUTH 2 Token Refresh URL: https://login.windows.net/c9b13f49-3c25-43c0-a84f-57faf131dc2b/oauth2/token
 	- OAUTH 2 Token Refresh Properties: grant_type=refresh_token
 	- OAUTH 2 Client ID: <your client_id from tutorial>
-	- OAUTH 2 Client Secret
-	- HTTP Header Properties
-	- URL Arguments
-	- Response Type
-	- Response Handler
-	- Response Handler Arguments
-	- Response Filter Pattern
-	- Streaming Request
-	- Index Error Responses
-	- HTTP Proxy Address
-	- HTTPs Proxy Address
-	- Request Timeout
-	- Backoff Time
-	- Polling Interval
-	- Delimiter
-	- Set sourcetype
-	- Source type
+	- OAUTH 2 Client Secret: <none>
+	- HTTP Header Properties: x-ms-version=2013-08-01
+	- URL Arguments: 
+	- Response Type:
+	- Response Handler:
+	- Response Handler Arguments:
+	- Response Filter Pattern:
+	- Streaming Request:
+	- Index Error Responses:
+	- HTTP Proxy Address:
+	- HTTPs Proxy Address:
+	- Request Timeout:
+	- Backoff Time:
+	- Polling Interval: 
+	- Delimiter: `<none>`
+	- Set sourcetype: Manual
+	- Source type: xml
 
 
