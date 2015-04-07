@@ -1,4 +1,4 @@
-<properties 
+﻿<properties 
    pageTitle="Azure Active Directory Audit Report Events" 
    description="Audited events that are available for viewing and downloading from your Azure Active Directory" 
    services="active-directory" 
@@ -33,8 +33,8 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Change user password			| Changed the password for a user in the directory.																|
 | Change user license			| Changed the license assigned to a user in the directory.															|
 | Update user				| Updated a user in the directory.																		|
-| Add role member to Role		| Add a user to an Administrator role.																		|
-| Remove role member from Role		| Remove a user from an Administrator role.																	|
+| Add role member to Role		| Added a user to a directory role.																		|
+| Remove role member from Role		| Removed a user from a directory role.																	|
 | Set Company contact information	| Set company-level contact preferences. This includes email addresses for marketing, as well as technical notifications about Microsoft Online Services.			|
 | Add partner to company		| Added a partner to the directory.																		|
 | Remove Partner from company		| Removed a partner from the directory.																		|
@@ -45,7 +45,7 @@ The Azure Active Directory Audit Report helps customers identify privileged acti
 | Add domain to company			| Added a domain to the directory.																		|
 | Remove domain from company		| Removed a domain from the directory.																		|
 | Update domain				| Updated a domain on the directory.																		|
-| Set domain authentication		| change the default domain setting for the company																|
+| Set domain authentication		| Changed the default domain setting for the company																|
 | Set federation settings on domain	| Updated the federation settings for a domain.																	|
 | Verify domain				| Verified a domain on the directory.																		|
 | Verify email verified domain		| Verified a domain on the directory using email verification.															|
@@ -80,7 +80,7 @@ Promote tenant to partner
 
 | Attribute 				| Description																			|
 | ---------------------------------	| ---------																			|
-| AccountEnabled			| The user is not blocked from signing into Azure AD.														|
+| AccountEnabled			| The user is allowed to sign in.														|
 | AssignedLicense			| All licenses that have been assigned to the user.														|
 | AssignedPlan				| Service plans resulting from the licenses assigned to the user.												|
 | LicenseAssignmentDetail		| Details on licenses assigned to the user. For instance, if group-based licensing was involved, this would include the group that granted the license.		|
